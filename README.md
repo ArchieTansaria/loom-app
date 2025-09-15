@@ -96,7 +96,7 @@ loveos/
    npm run dev
    ```
 
-   This will start both the backend server (port 5000) and frontend development server (port 5173).
+   This will start both the backend server (port 3000) and frontend development server (port 5173).
 
 ### Alternative: Run servers separately
 
