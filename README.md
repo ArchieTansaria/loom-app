@@ -1,6 +1,6 @@
-# LoveOS - The Compatibility Engine
+# loom - The Compatibility Engine
 
-LoveOS is a revolutionary dating app that goes beyond superficial bios to create meaningful human connections based on psychological principles, behavioral patterns, communication styles, and deeper personality insights.
+loom is a revolutionary dating app that goes beyond superficial bios to create meaningful human connections based on psychological principles, behavioral patterns, communication styles, and deeper personality insights.
 
 ## 🔑 Core Features
 
@@ -31,7 +31,7 @@ LoveOS is a revolutionary dating app that goes beyond superficial bios to create
 ## 📂 Project Structure
 
 ```
-loveos/
+loom/
 ├── client/                 # React frontend
 │   ├── src/
 │   │   ├── components/     # Reusable components
@@ -62,7 +62,7 @@ loveos/
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd loveos
+   cd loom
    ```
 
 2. **Install dependencies**
@@ -79,7 +79,7 @@ loveos/
    Edit `.env` with your configuration:
    ```env
    PORT=5000
-   MONGODB_URI=mongodb://localhost:27017/loveos
+   MONGODB_URI=mongodb://localhost:27017/loom
    JWT_SECRET=your_jwt_secret_key_here
    NODE_ENV=development
    ```
@@ -112,7 +112,7 @@ npm run dev
 
 ## 🧠 Compatibility Algorithm
 
-The LoveOS compatibility engine calculates matches based on multiple psychological factors:
+The loom compatibility engine calculates matches based on multiple psychological factors:
 
 ### 1. Big Five Personality Traits (25% weight)
 - **Openness**: Creativity, curiosity, and openness to new experiences
@@ -227,8 +227,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email support@loveos.app or join our Discord community.
+For support, email support@loom.app or join our Discord community.
 
 ---
 
-**LoveOS** - Where meaningful connections begin with psychological compatibility. 💕
+**loom** - Where meaningful connections begin with psychological compatibility. 💕
