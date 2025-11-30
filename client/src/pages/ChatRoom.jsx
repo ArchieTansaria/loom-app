@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Send, ArrowLeft, Heart, User } from 'lucide-react';
+import { Send, ArrowLeft, Heart, User, MessageCircle } from 'lucide-react';
 import { useSocket } from '../contexts/SocketContext';
 import axios from 'axios';
 import toast from 'react-hot-toast';
@@ -66,11 +66,27 @@ const ChatRoom = () => {
 
     setIsSending(true);
     try {
-      const messageData = {
-        chatRoomId,
-        content: newMessage.trim(),
-        messageType: 'text'
-      };
+      const response = await axios.post(
+        `/api/chat/${chatRoomId}/messages`,
+        {
+          content : newMessage.trim(),
+          messageType : 'text'
+        },
+        {
+          headers: {
+            Authorization: `Bearer ${localStorage.getItem('token')}`
+          }
+        }
+      );
+
+      const messageData = response.data;
+      // setMessages((prev) => [...prev, messageData]);
+
+      // const messageData = {
+      //   chatRoomId,
+      //   content: newMessage.trim(),
+      //   messageType: 'text'
+      // };
 
       sendMessage(messageData);
       setNewMessage('');

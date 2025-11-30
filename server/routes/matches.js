@@ -1,4 +1,5 @@
 const express = require('express');
+const mongoose = require('mongoose');
 const { body, validationResult } = require('express-validator');
 const Match = require('../models/Match');
 const Profile = require('../models/Profile');
@@ -181,6 +182,7 @@ router.post('/:userId/like', auth, [
     // Check if it's now a mutual match
     if (match.user1Liked && match.user2Liked && match.status !== 'declined') {
       match.status = 'mutual';
+      // console.log("Generated chatRoomId:", match.generateChatRoomId());
       match.chatRoomId = match.generateChatRoomId();
       await match.save();
 
@@ -285,7 +287,7 @@ router.get('/:matchId', auth, async (req, res) => {
     const { matchId } = req.params;
     
     const match = await Match.findOne({
-      _id: matchId,
+      chatRoomId: `chat_${matchId}`,
       $or: [{ user1: req.userId }, { user2: req.userId }]
     }).populate('user1 user2', 'firstName lastName age photos bio interests');
 
