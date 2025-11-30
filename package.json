@@ -11,10 +11,21 @@
     "build": "cd client && npm run build",
     "start": "cd server && npm start"
   },
-  "keywords": ["dating", "compatibility", "psychology", "matchmaking"],
+  "keywords": [
+    "dating",
+    "compatibility",
+    "psychology",
+    "matchmaking"
+  ],
   "author": "LoveOS Team",
   "license": "MIT",
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
