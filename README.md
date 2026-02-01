@@ -2,7 +2,7 @@
 
 loom is a revolutionary dating app that goes beyond superficial bios to create meaningful human connections based on psychological principles, behavioral patterns, communication styles, and deeper personality insights.
 
-## 🔑 Core Features
+## Core Features
 
 - **Psychological Matching**: Advanced compatibility based on Big Five personality traits, love languages, and communication styles
 - **Personality Quiz**: Comprehensive assessment covering personality, love languages, communication style, and lifestyle preferences
@@ -10,7 +10,7 @@ loom is a revolutionary dating app that goes beyond superficial bios to create m
 - **Real-time Chat**: Secure, real-time messaging system for matched users
 - **Compatibility Scoring**: Detailed breakdown of compatibility factors with explanations
 
-## 🚀 Tech Stack
+## Tech Stack
 
 ### Backend
 - **Node.js** with Express.js
@@ -28,7 +28,7 @@ loom is a revolutionary dating app that goes beyond superficial bios to create m
 - **Framer Motion** for animations
 - **React Hot Toast** for notifications
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 loom/
@@ -50,7 +50,7 @@ loom/
 └── README.md
 ```
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -110,7 +110,7 @@ cd client
 npm run dev
 ```
 
-## 🧠 Compatibility Algorithm
+## Compatibility Algorithm
 
 The loom compatibility engine calculates matches based on multiple psychological factors:
 
@@ -166,7 +166,7 @@ The loom compatibility engine calculates matches based on multiple psychological
 - Read status and timestamps
 - Message reactions and editing
 
-## 🔐 Authentication
+## Authentication
 
 - JWT-based authentication with 7-day expiration
 - Password hashing using bcrypt with salt rounds of 12
@@ -180,7 +180,7 @@ The loom compatibility engine calculates matches based on multiple psychological
 - Message delivery confirmation
 - Online/offline status indicators
 
-## 🎨 UI/UX Features
+## UI/UX Features
 
 - Modern, responsive design with TailwindCSS
 - Gradient color schemes and smooth animations
@@ -188,7 +188,7 @@ The loom compatibility engine calculates matches based on multiple psychological
 - Accessibility considerations
 - Loading states and error handling
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 ### Planned Features
 - **AI Love Coach**: Personalized insights and relationship advice
@@ -206,7 +206,7 @@ The loom compatibility engine calculates matches based on multiple psychological
 - **Push Notifications**: Real-time alerts for matches and messages
 - **Analytics Dashboard**: User engagement and success metrics
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -214,18 +214,18 @@ The loom compatibility engine calculates matches based on multiple psychological
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Psychological research on compatibility and relationship success
 - Big Five personality model and love languages theory
 - Modern web development best practices
 - Open source community contributions
 
-## 📞 Support
+## Support
 
 For support, email support@loom.app or join our Discord community.
 
