@@ -225,10 +225,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Modern web development best practices
 - Open source community contributions
 
-## Support
-
-For support, email support@loom.app or join our Discord community.
-
 ---
 
 **loom** - Where meaningful connections begin with psychological compatibility. 💕
