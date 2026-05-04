@@ -228,4 +228,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 
-**loom** - Where meaningful connections begin with psychological compatibility. 💕
+**loom** - Where meaningful connections begin with psychological compatibility. 
